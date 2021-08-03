@@ -5,7 +5,7 @@ Performing quantitative and qualitative analysis of information of Greta Thunber
 * Twitter’s Rest API
 * Twitter’s Search API
 * Twitter’s Streaming API
-* 
+
 The analysis was conducted to answer the following questions: 
 * How have the trends of likes and retweets developed within a specific period of time? 
 * How did Greta Thunberg express herself on Twitter over a specific period of time according to a word cloud analysis? 
