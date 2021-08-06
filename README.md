@@ -1,7 +1,7 @@
 # SocMed
 
 ## Description 
-Performing quantitative and qualitative analysis of information of Greta Thunberg and her followers on Twitter by implement a simple search system using Twitter APIs:
+Performing quantitative and qualitative analysis of information of Greta Thunberg and her followers on Twitter by implement a simple search system using the following Twitter APIs:
 * Twitter’s Rest API
 * Twitter’s Search API
 * Twitter’s Streaming API
