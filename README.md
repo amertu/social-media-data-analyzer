@@ -1,7 +1,7 @@
 # Simple search system using Twitter APIs
 
 ## Description 
-Performing quantitative and qualitative analysis of information of Greta Thunberg and her followers on Twitter by implement a simple search system using the following Twitter APIs:
+Performing quantitative and qualitative analysis of information of [Greta Thunberg](https://twitter.com/GretaThunberg?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) and her followers on Twitter by implement a simple search system using the following Twitter APIs:
 * Twitter’s Rest API
 * Twitter’s Search API
 * Twitter’s Streaming API
