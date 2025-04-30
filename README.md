@@ -12,7 +12,7 @@ This project analyzes global user engagement patterns by focusing on Greta Thunb
 - Identified socio-cultural and geographic trends within follower groups, uncovering regional engagement styles and community structures.
 
 ## Architecture
-<div class="scroll-box">
+<div>
 <table>
   <tr>
     <td >
@@ -97,16 +97,6 @@ This project analyzes global user engagement patterns by focusing on Greta Thunb
   </tr>
 </table>
 </div>
-.scroll-box {
-  overflow-y: auto;
-  white-space: pre;
-  background: #f7f7f7;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: monospace;
-  max-width: 100%;
-}
 
 
 
