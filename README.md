@@ -17,14 +17,14 @@ This project analyzes global user engagement patterns by focusing on Greta Thunb
   <tr>
     <td >
 <pre>
-                  Batch Processing
+                  BATCH DATA PIPELINE
                 +---------------------+
-                |   Twitter API       |
+                |   Social Media API  |
                 +---------------------+
                          |
                          v
                 +---------------------+
-                |  Data Collection    |
+                |  Data Ingestion     |
                 +---------------------+
                          |
                          v
@@ -34,56 +34,50 @@ This project analyzes global user engagement patterns by focusing on Greta Thunb
                          |
                          v
                 +---------------------+
-                | Data Processing &   |   now                next
-                | Preprocessing       |   ------------------------->
+                |   Preprocessing &   |   now                next
+                |        EDA          |   ------------------------->
                 +---------------------+
                          |
                          v
                 +---------------------+
-                | Exploratory Data    |
-                | Analysis (EDA)      |
+                |   Trend Detection   |
+                |                     |
                 +---------------------+
                          |
                          v
                 +---------------------+
-                | Trend Detection &   |
-                | Insights Extraction |
+                |   Reporting & Viz   |
+                |                     |
                 +---------------------+
-                         |
-                         v
-                +---------------------+
-                |   Visualization &   |
-                |   Reporting         |
-                +---------------------+
+
 </pre>
     </td>
     <td >
 <pre>
-                  Real Time Processing
-                +-----------------------+
-                | Twitter Streaming API |
-                +-----------------------+
+                 REAL-TIME DATA PIPELINE
+                +-------------------------+
+                | Streaming API / Webhook |
+                +-------------------------+
                             |
                             v
-            +------------------------------+
-            |  Stream Processor (Python)   |
-            |   (Tweepy StreamListener)    |
-            +------------------------------+
+              +------------------------------+
+              |  Stream Ingestion Engine     |
+              +------------------------------+
                             |
                             v
-        +-------------------------------------------+
-        |  Message Broker (Apache Kafka / RabbitMQ) |
-        +-------------------------------------------+
+                  +-----------------------+
+                  | Message Queue System  |
+                  |  (Kafka / RabbitMQ)   |
+                  +-----------------------+
                             |
                             v
-        +-------------------------------------------+
-        |     Stream Consumer & Data Processor      |
-        |         (Python + Pandas/Numpy)           |
-        +-------------------------------------------+
+                +-------------------------+
+                |  Stream Processing Uni  |
+                +-------------------------+
                             |
                             v
         +-----------------------------------------+
-        |           Real-time Storage             |
+        |           Real-time Data Store          |
         | (ElasticSearch / MongoDB / TimescaleDB) |
         +-----------------------------------------+
                             |
