@@ -12,12 +12,13 @@ This project analyzes global user engagement patterns by focusing on Greta Thunb
 - Identified socio-cultural and geographic trends within follower groups, uncovering regional engagement styles and community structures.
 
 ## Architecture
-<div>
+
 <table>
   <tr>
-    <td >
-<pre>
+    <td valign="top">
+<pre style="margin: 0;">
   BATCH DATA PIPELINE
+───────────────────────
 +---------------------+
 |   Social Media API  |
 +---------------------+
@@ -34,8 +35,8 @@ This project analyzes global user engagement patterns by focusing on Greta Thunb
          |
          v
 +---------------------+
-|   Preprocessing &   |   now                next
-|        EDA          |   ------------------------->
+|   Preprocessing &   |    now            
+|        EDA          |   ------
 +---------------------+
          |
          v
@@ -52,9 +53,10 @@ This project analyzes global user engagement patterns by focusing on Greta Thunb
 
 </pre>
     </td>
-    <td >
-<pre>
+    <td valign="top">
+<pre style="margin: 0;">
          REAL-TIME DATA PIPELINE
+────────────────────────────────────────
         +-------------------------+
         | Streaming API / Webhook |
         +-------------------------+
@@ -71,8 +73,8 @@ This project analyzes global user engagement patterns by focusing on Greta Thunb
           +-----------------------+
                     |
                     v
-        +-------------------------+
-        |  Stream Processing Uni  |
+next    +-------------------------+
+----->  |  Stream Processing Uni  |
         +-------------------------+
                     |
                     v
@@ -90,7 +92,6 @@ This project analyzes global user engagement patterns by focusing on Greta Thunb
     </td>
   </tr>
 </table>
-</div>
 
 
 
