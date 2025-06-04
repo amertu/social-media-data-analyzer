@@ -17,75 +17,75 @@ This project analyzes global user engagement patterns by focusing on Greta Thunb
   <tr>
     <td >
 <pre>
-                  BATCH DATA PIPELINE
-                +---------------------+
-                |   Social Media API  |
-                +---------------------+
-                         |
-                         v
-                +---------------------+
-                |  Data Ingestion     |
-                +---------------------+
-                         |
-                         v
-                +---------------------+
-                |  Raw Data Storage   |
-                +---------------------+
-                         |
-                         v
-                +---------------------+
-                |   Preprocessing &   |   now                next
-                |        EDA          |   ------------------------->
-                +---------------------+
-                         |
-                         v
-                +---------------------+
-                |   Trend Detection   |
-                |                     |
-                +---------------------+
-                         |
-                         v
-                +---------------------+
-                |   Reporting & Viz   |
-                |                     |
-                +---------------------+
+  BATCH DATA PIPELINE
++---------------------+
+|   Social Media API  |
++---------------------+
+         |
+         v
++---------------------+
+|  Data Ingestion     |
++---------------------+
+         |
+         v
++---------------------+
+|  Raw Data Storage   |
++---------------------+
+         |
+         v
++---------------------+
+|   Preprocessing &   |   now                next
+|        EDA          |   ------------------------->
++---------------------+
+         |
+         v
++---------------------+
+|   Trend Detection   |
+|                     |
++---------------------+
+         |
+         v
++---------------------+
+|   Reporting & Viz   |
+|                     |
++---------------------+
 
 </pre>
     </td>
     <td >
 <pre>
-                 REAL-TIME DATA PIPELINE
-                +-------------------------+
-                | Streaming API / Webhook |
-                +-------------------------+
-                            |
-                            v
-              +------------------------------+
-              |  Stream Ingestion Engine     |
-              +------------------------------+
-                            |
-                            v
-                  +-----------------------+
-                  | Message Queue System  |
-                  |  (Kafka / RabbitMQ)   |
-                  +-----------------------+
-                            |
-                            v
-                +-------------------------+
-                |  Stream Processing Uni  |
-                +-------------------------+
-                            |
-                            v
-        +-----------------------------------------+
-        |           Real-time Data Store          |
-        | (ElasticSearch / MongoDB / TimescaleDB) |
-        +-----------------------------------------+
-                            |
-                            v
-        +------------------------------------------+
-        |          Real-Time Dashboards            |
-        | (Kibana / Grafana / Custom Python Dash)  |
-        +------------------------------------------+
+         REAL-TIME DATA PIPELINE
+        +-------------------------+
+        | Streaming API / Webhook |
+        +-------------------------+
+                    |
+                    v
+      +------------------------------+
+      |  Stream Ingestion Engine     |
+      +------------------------------+
+                    |
+                    v
+          +-----------------------+
+          | Message Queue System  |
+          |  (Kafka / RabbitMQ)   |
+          +-----------------------+
+                    |
+                    v
+        +-------------------------+
+        |  Stream Processing Uni  |
+        +-------------------------+
+                    |
+                    v
++-----------------------------------------+
+|           Real-time Data Store          |
+| (ElasticSearch / MongoDB / TimescaleDB) |
++-----------------------------------------+
+                    |
+                    v
++------------------------------------------+
+|          Real-Time Dashboards            |
+| (Kibana / Grafana / Custom Python Dash)  |
++------------------------------------------+
 </pre>
     </td>
   </tr>
