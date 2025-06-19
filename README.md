@@ -92,9 +92,3 @@ next    +-------------------------+
     </td>
   </tr>
 </table>
-
-
-
-## Business Impact
-- Provided data-driven insights to help influencers and organizations enhance social media strategies and engagement in digital activism.
-- Supported Corporate Social Responsibility (CSR) campaigns by identifying key demographic groups and engagement trends.
